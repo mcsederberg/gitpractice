@@ -1,0 +1,29 @@
+body{
+    background: lightblue;
+}
+
+h2{
+    color: darkslategrey;
+    font-size: xx-large;
+    border-bottom: 1px solid black;
+}
+p{
+    font-size: larger;
+}
+
+.menu {
+    /* list-style-type: none; */
+    margin: 0;
+    padding: 0;
+    width: 80px;
+  }
+  
+  li a {
+    display: inline-block;
+  }
+
+/* Change the link color on hover */
+li a:hover {
+    background-color: #555;
+    color: white;
+  }
